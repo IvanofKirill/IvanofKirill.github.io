@@ -193,3 +193,20 @@ flex-direction: column;
   background: linear-gradient(25deg, rgb(40, 170, 220) 3vmax, transparent 2.7vmax) -31px 0 / 7.3vw 100%,
               linear-gradient(-40deg, rgb(40, 170, 220) 2.55vmax, transparent 1.9vmax) -30px 0 / 7.3vw 100%;
 }
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  #spin-text {
+    position: relative;
+    font-family: 'Permanent Marker', cursive;
+    font-variant:small-caps;
+    font-size: 40px;
+    -webkit-transform: skew(-15deg,-15deg);
+    background-image: -webkit-linear-gradient(#FF0FF8 0%,  #F9F9F7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+  }
+}

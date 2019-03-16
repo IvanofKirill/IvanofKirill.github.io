@@ -24,6 +24,7 @@ flex-direction: column;
     ". . ."
     ". a ."
     ". . .";
+  cursor: pointer;
 }
 
 .center-contents {
